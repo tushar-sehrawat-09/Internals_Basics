@@ -1,0 +1,17 @@
+{
+  "health_endpoint": "/health",
+  "predict_endpoint": "/predict",
+  "port": 9000,
+  "health_response": {
+    "status": "running",
+    "model": "GradientBoosting",
+    "version": "1.0"
+  },
+  "test_input": {
+    "pr_lines_changed": 896,
+    "reviewer_load": 8,
+    "file_count": 24,
+    "is_critical_path": 1
+  },
+  "prediction": 29.4716
+}
